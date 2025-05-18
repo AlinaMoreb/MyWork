@@ -1,0 +1,86 @@
+    1  mkdir /home/animals
+    2  mkdir /home
+    3  mkdir home
+    4  mkdir home/animals
+    5  mkdir home/animals/dogs
+    6  mkdir home/animals/cats
+    7  mkdir home/animals/fish
+    8  touch home/animals/dogs/pluto
+    9  touch home/animals/cats/garfield
+   10  touch home/animals/fish/nemo
+   11  touch tmp/adam
+   12  mkdir tmp
+   13  touch tmp/adam
+   14  mkdir home/humans
+   15  cp tmp/adam home/humans
+   16  touch home/tmp/evA
+   17  touch tmp/evA
+   18  mkdir opt
+   19  mv tmp/evA opt/eve
+   20  mv opt/eve home/humans
+   21  ls home/humans
+   22  ls-l home/humans
+   23  ls
+   24  history>
+   25  history>/tmp/history.txt && export_file/tmp/history.txt
+   26  ls-l home/humans
+   27  history>/tmp/history.txt && export_file/tmp/history.txt
+   28   
+   29  history> /tmp/history.txt && export_file /tmp/history.txt
+   30  history > /tmp/history.txt && export_file /tmp/history.txt
+   31  history > /tmp/history.txt&&export_file/tmp/history.txt
+   32  history > /tmp/history.txt&& export_file/tmp/history/txt
+   33   de:/home/ec2-user/ ssh/280225-wdm.txt
+   34  de: /home/ec2-user/ ssh/280225-wdm.txt
+   35  /home/ec2-user/ ssh/280225-wdm.txt
+   36  ls -al
+   37  ec2-user@linux.itcareerhub
+   38  ec2-user@linux.itcareerhub.de
+   39  ec2-AlinaMoreb@linux.itcareerhub.de
+   40  ssh
+   41  ssh -i ~/.ssd/id_rsa ec2-AlinaMoreb@linux.itcareerhub.de
+   42  cd 280226-wdm/
+   43  echo "# 280225-wdm" >> README.md
+   44  git init
+   45  git add README.md
+   46  git commit -m "first commit"
+   47  git branch -M main
+   48  git remote add origin git@github.com:AlinaMoreb/280225-wdm.git
+   49  git push -u origin main
+   50  mkdir git_intro
+   51  cd git_intro
+   52  git init
+   53  node -v
+   54  npm -v
+   55  npm install -g sass
+   56  git clone https://github.com/AlinaMoreb/MyWork.git
+   57  cd MyWork
+   58  git checkout -b feature
+   59  git add README.md .gitignore
+   60  git commit -m "Обновлены README и .gitignore"
+   61  git push origin feature
+   62  git commit --amend -m "Обновлены README и .gitignore [ammend]"
+   63  git push --force-with-lease origin feature
+   64  git checkout main
+   65  git commit --amend -m "Обновлены README и .gitignore [ammend]"
+   66  git push --force-with-lease origin feature
+   67  git checkout main
+   68  git merge feature
+   69  cd https://github.com/AlinaMoreb/MyWork.git
+   70  cd "C:\GitHab"
+   71  git clone git@github.com:AlinaMoreb/MyWork.git
+   72  cd MyWork
+   73  git checkout -b feature
+   74  git commit --amend
+   75  git config --global core.editor "nano"
+   76  nano --version
+   77  cd "C:\GitHab"
+   78  git clone git@github.com:AlinaMoreb/MyWork.git
+   79  cd MyWork
+   80  git checkout -b feature
+   81  git config --global core.editor
+   82  git commit --amend
+   83  git checkout main
+   84  git pull origin main
+   85  git merge feature
+   86  history > history.txt
